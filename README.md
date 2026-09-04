@@ -61,10 +61,10 @@ There are a number of versions included in this repository:
 * [v0_1_cpu_historical](v0_1_cpu_historical/) - Original version based on naive recursive backtracking algorithm
 * [v1_0_cpu_single_threaded](v1_0_cpu_single_threaded/) - Updated version based on exact cover method and non-recursive backtracking algorithm
 * [v2_0_gpu_level4_subtrees](v2_0_gpu_level4_subtrees/) - Initial GPU version based on level-4 subtrees with one thread per subtree
-* [v2_1_gpu_persistent_threads](v2_1_persistent_threads/) - Improved GPU version with persistent threads and a global concurrent queue
+* [v2_1_gpu_persistent_threads](v2_1_gpu_persistent_threads/) - Improved GPU version with persistent threads and a global concurrent queue
 * [v2_2_gpu_work_stealing](v2_2_gpu_work_stealing/) - Improved GPU version with a block-local work-stealing mechanism
 * [v2_3_gpu_level5_subtrees](v2_3_gpu_level5_subtrees/) - Improved GPU version based on level-5 subtrees
-* [v2_4_gpu_cid](v2_3_gpu_cid/) - Improved GPU version with a compressed lookup table for higher L1 cache hit rate
+* [v2_4_gpu_cid](v2_4_gpu_cid/) - Improved GPU version with a compressed lookup table for higher L1 cache hit rate
 * [v2_5_gpu_cid_uid_l1_shared](v2_5_gpu_cid_uid_l1_shared/) - Improved GPU version with compressed lookup tables in L1 cache and shared memory
 * [v2_6_gpu_cid_uid_shared](v2_6_gpu_cid_uid_shared/) - Improved GPU version with compressed lookup tables in shared memory
 * [v2_7_gpu_rot_rid_shared](v2_7_gpu_rot_rid_shared/) - Improved GPU version with compressed lookup tables in shared memory and improved occupancy
