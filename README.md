@@ -22,7 +22,7 @@ We then consider all the remaining pieces, but only the placements that would fi
 
 For each of the 64 possible target cells, for each of the 13 possible pieces, we can pre-compute a list of valid placements and can even eliminate, up front, placements that would cause a conflict in a lower numbered cell.
 For any given target cell, there are up to 24 valid placements per piece (1 per rotation).
-I generally pad the lists to a fixed length (25 or 32) to allow previously-placed pieces to be skipped efficiently, with the padding also acting as a null delimiter.
+I generally pad the lists to a fixed length (25 or 32) to allow previously-placed pieces to be skipped efficiently, with the padding also acting as a null terminator.
 
 Another improvement I have made is to adopt a **non-recursive backtracking algorithm**.
 I combine the target cell, piece, and placement into an identifier (ID) and then store the state of the backtracking algorithm as an explicit stack of (up to) 13 IDs.
