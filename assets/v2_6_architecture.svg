@@ -425,7 +425,7 @@
        ry="5.0000005" />
     <rect
        style="fill:#c6e9af;fill-opacity:1;stroke:#447821;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect_rot"
+       id="rect_uid"
        width="260"
        height="30.000002"
        x="840"
@@ -435,21 +435,21 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#447821;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
-       x="914.45001"
+       x="908.19025"
        y="299.96417"
-       id="text_rot"><tspan
-         id="tspan11"
-         x="914.45001"
-         y="299.96417">RotFromID table</tspan></text>
+       id="text_uid"><tspan
+         id="tspan9"
+         x="908.19025"
+         y="299.96417">UIDFromCID table</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#447821;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
-       x="890.71637"
+       x="890.47223"
        y="258.72394"
        id="text_occupied"><tspan
-         id="tspan10"
-         x="890.71637"
-         y="258.72394">OccupiedFromRID table</tspan></text>
+         id="tspan5"
+         x="890.47223"
+         y="258.72394">OccupiedFromUID table</tspan></text>
     <rect
        style="fill:#c6e9af;fill-opacity:1;stroke:#447821;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect_solutions"
@@ -505,7 +505,7 @@
        ry="5" />
     <rect
        style="fill:#ffeeaa;fill-opacity:1;stroke:#806600;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect_ids"
+       id="rect_cids"
        width="260"
        height="30"
        x="840"
@@ -515,12 +515,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#806600;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
-       x="938.3139"
+       x="933.73053"
        y="339.96417"
-       id="text_ids"><tspan
-         id="tspan15"
-         x="938.3139"
-         y="339.96417">IDs stack</tspan></text>
+       id="text_cids"><tspan
+         id="tspan1"
+         x="933.73053"
+         y="339.96417">CIDs stack</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect_local"
