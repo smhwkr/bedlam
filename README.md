@@ -40,7 +40,7 @@ Since the same bitmask appears in multiple lists it can also be useful to assign
 Because the pieces all occupy either 2 x 2 x 3 or 1 x 3 x 3 cells, there are up to 18 placements per piece per rotation.
 Then, because piece 0 is allowed only 1 rotation (for symmetry breaking), the maximum number of UIDs is 5202 (or 5303 if we also assign a UID to the empty bitmask).
 
-Another useful observation is that bitmasks corresponding to different valid placements of a particular rotation of a piece, are all bit-shifted versions of one another.
+Another useful observation is that bitmasks for different valid placements of a particular rotation of a piece, are all bit-shifted versions of one another.
 I call the version which occupies the first cell (i.e. where bit 0 of the bitmask is set) the base bitmask.
 The base bitmasks can be identified by their rotation ID (RID) which is a combination of the piece and rotation.
 ```
@@ -61,16 +61,17 @@ There are a number of versions included in this repository:
 * [v0_1_cpu_historical](v0_1_cpu_historical/) - Original version based on naive recursive backtracking algorithm
 * [v1_0_cpu_single_threaded](v1_0_cpu_single_threaded/) - Updated version based on exact cover method and non-recursive backtracking algorithm
 * [v2_0_gpu_level4_subtrees](v2_0_gpu_level4_subtrees/) - Initial GPU version based on level-4 subtrees with one thread per subtree
-* [v2_1_gpu_level4_subtrees_with_persistent_threads](v2_1_gpu_level4_subtrees_with_persistent_threads/) - Improved GPU version with persistent threads and a global concurrent queue
-* [v2_2_gpu_level4_subtrees_with_work_stealing](v2_2_gpu_level4_subtrees_with_work_stealing/) - Improved GPU version with a block-local work-stealing mechanism
-* [v2_3_gpu_level5_subtrees_with_work_stealing](v2_3_gpu_level5_subtrees_with_work_stealing/) - Improved GPU version based on level-5 subtrees
-* [v2_4_gpu_cid_uid_l1_shared](v2_4_gpu_cid_uid_l1_shared/) - Improved GPU version with compressed lookup tables in L1 cache and shared memory
-* [v2_5_gpu_cid_uid_shared](v2_5_gpu_cid_uid_shared/) - Improved GPU version with compressed lookup tables in shared memory
-* [v2_6_gpu_rot_rid_shared](v2_6_gpu_rot_rid_shared/) - Improved GPU version with compressed lookup tables in shared memory and improved occupancy
+* [v2_1_gpu_persistent_threads](v2_1_persistent_threads/) - Improved GPU version with persistent threads and a global concurrent queue
+* [v2_2_gpu_work_stealing](v2_2_gpu_work_stealing/) - Improved GPU version with a block-local work-stealing mechanism
+* [v2_3_gpu_level5_subtrees](v2_3_gpu_level5_subtrees/) - Improved GPU version based on level-5 subtrees
+* [v2_4_gpu_cid](v2_3_gpu_cid/) - Improved GPU version with a compressed lookup table for higher L1 cache hit rate
+* [v2_5_gpu_cid_uid_l1_shared](v2_5_gpu_cid_uid_l1_shared/) - Improved GPU version with compressed lookup tables in L1 cache and shared memory
+* [v2_6_gpu_cid_uid_shared](v2_6_gpu_cid_uid_shared/) - Improved GPU version with compressed lookup tables in shared memory
+* [v2_7_gpu_rot_rid_shared](v2_7_gpu_rot_rid_shared/) - Improved GPU version with compressed lookup tables in shared memory and improved occupancy
 
 ## Performance
 Here is a summary of the performance of the various versions:
 
 ![CPU performance for AMD Ryzen 5 5600X](assets/cpu_chart.svg)
 
-![GPU performance for RTX 4090](assets/gpu_chart.svg)
+![GPU performance for NVIDIA RTX 4090](assets/gpu_chart.svg)
