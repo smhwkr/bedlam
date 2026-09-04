@@ -76,4 +76,4 @@ Here is a summary of the performance of the various versions:
 
 ![GPU performance for NVIDIA RTX 4090](assets/gpu_chart.svg)
 
-The best GPU version running on the NVIDIA RTX 4090 is about **1000X faster** than the single-threaded CPU version running on the AMD Ryzen 5 5600X
+The best GPU version running on the NVIDIA RTX 4090 is about **1000X faster** than the single-threaded CPU version running on the AMD Ryzen 5 5600X.
