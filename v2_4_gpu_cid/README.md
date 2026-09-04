@@ -1,6 +1,6 @@
 # bedlam v2.4 (GPU, CID)
 
-This version has essentially the same architecture as v2.3 but uses compressed IDs (CIDs) in place of IDs, which reduces the size of the lookup table and increases the L1 cache hit rate.
+This version uses the same **two-tier load-balancing** architecture as v2.3, but uses compressed IDs (CIDs) in place of IDs. This reduces the size of the lookup table and increases the L1 cache hit rate.
 
 This is what the architecture looks like:
 
