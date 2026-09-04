@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37530.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bedlam", "bedlam.vcxproj", "{A449825E-CA46-4498-A524-F031CBC3A338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A449825E-CA46-4498-A524-F031CBC3A338}.Debug|x64.ActiveCfg = Debug|x64
+		{A449825E-CA46-4498-A524-F031CBC3A338}.Debug|x64.Build.0 = Debug|x64
+		{A449825E-CA46-4498-A524-F031CBC3A338}.Release|x64.ActiveCfg = Release|x64
+		{A449825E-CA46-4498-A524-F031CBC3A338}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {640642CE-1303-4BF0-B9D1-6F7689730AD3}
+	EndGlobalSection
+EndGlobal
