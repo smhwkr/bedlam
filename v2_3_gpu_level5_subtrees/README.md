@@ -1,4 +1,4 @@
-# bedlam v2.3 (GPU, level-5 subtrees, work-stealing)
+# bedlam v2.3 (GPU, level-5 subtrees)
 
 This version uses the same **two-tier load-balancing architecture** as v2.2 and differs only in that the partial solutions queue now contains level-5 subtrees.
 These are smaller and more uniform than the previous level-4 subtrees.
