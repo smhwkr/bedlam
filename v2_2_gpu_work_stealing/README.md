@@ -1,4 +1,4 @@
-# bedlam v2.2 (GPU, level-4 subtrees, work-stealing)
+# bedlam v2.2 (GPU, work-stealing)
 
 This version uses a **two-tier load-balancing architecture** to manage the irregular workload.
 
