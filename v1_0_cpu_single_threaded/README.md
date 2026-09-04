@@ -4,4 +4,4 @@ This is the updated CPU version.
 
 The output should look something like this:
 
-![Screenshot](assets/v1_0_screenshot.png)
+![Screenshot](../assets/v1_0_screenshot.png)
