@@ -54,7 +54,7 @@ I have included a number of snapshots which capture the optimisation process.
 
 There are two kernels.
 The first kernel uses brute force to generate a vast number of partial solutions (also referred to as level-4 or level-5 subtrees) in parallel.
-The second kernel, where threads use a depth-first search to explore their own subtrees, is launched asynchronously with **no further involvement required from the host CPU**.
+The second kernel, where threads use depth-first searches to explore their own subtrees, is launched asynchronously with **no further involvement required from the host CPU**.
 
 ## Versions
 There are a number of versions included in this repository:
