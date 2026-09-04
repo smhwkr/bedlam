@@ -31,7 +31,7 @@ The ID can also be used to look up a bitmask indicating which cells are occupied
 id = (targetn << 9) + (piecen << 5) + placementn;
 ```
 
-I sometimes use a compressed ID (CID) to reduce the size of lookup tables.
+I sometimes use a compressed ID (CID) to reduce the sizes of lookup tables.
 ```
 cid = targetn * 325 + piecen * 25 + placementn;
 ```
