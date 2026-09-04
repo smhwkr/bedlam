@@ -428,19 +428,19 @@
        id="rect_uid"
        width="260"
        height="30.000002"
-       x="840"
-       y="280"
+       x="220"
+       y="345"
        rx="5"
        ry="5.0000005" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#447821;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
-       x="908.19025"
-       y="299.96417"
+       x="288.19025"
+       y="364.96417"
        id="text_uid"><tspan
          id="tspan9"
-         x="908.19025"
-         y="299.96417">UIDFromCID table</tspan></text>
+         x="288.19025"
+         y="364.96417">UIDFromCID table</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#447821;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
@@ -509,18 +509,18 @@
        width="260"
        height="30"
        x="840"
-       y="320"
+       y="580"
        rx="5"
        ry="5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#806600;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
        x="933.73053"
-       y="339.96417"
+       y="599.96417"
        id="text_cids"><tspan
          id="tspan1"
          x="933.73053"
-         y="339.96417">CIDs stack</tspan></text>
+         y="599.96417">CIDs stack</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect_local"
