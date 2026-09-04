@@ -1,4 +1,4 @@
-# bedlam v2.1 (GPU, level-4 subtrees, persistent threads)
+# bedlam v2.1 (GPU, persistent threads)
 
 This version uses persistent threads and a **global concurrent queue** to manage the irregular workload.
 
