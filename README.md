@@ -58,7 +58,7 @@ The second kernel, where threads use a depth-first search to explore their own s
 
 ## Versions
 There are a number of versions included in this repository:
-* [v0_1_cpu_historical](v0_1_cpu_historical/) - Original version based on naive recursive backtracking algorithm
+* [v0_1_cpu_original](v0_1_cpu_original/) - Original version based on naive recursive backtracking algorithm
 * [v1_0_cpu_single_threaded](v1_0_cpu_single_threaded/) - Updated version based on exact cover method and non-recursive backtracking algorithm
 * [v2_0_gpu_level4_subtrees](v2_0_gpu_level4_subtrees/) - Initial GPU version based on level-4 subtrees with one thread per subtree
 * [v2_1_gpu_persistent_threads](v2_1_gpu_persistent_threads/) - Improved GPU version with persistent threads and a global concurrent queue
