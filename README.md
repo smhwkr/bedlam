@@ -41,7 +41,7 @@ Because the pieces all occupy either 2 x 2 x 3 or 1 x 3 x 3 cells, there are up 
 Then, because piece 0 is allowed only 1 rotation (for symmetry breaking), the maximum number of UIDs is 5202 (or 5303 if we also assign a UID to the empty bitmask).
 
 Another useful observation is that bitmasks for different valid placements of a particular rotation of a piece, are all bit-shifted versions of one another.
-I call the version which occupies the first cell (i.e. where bit 0 of the bitmask is set) the base bitmask.
+I refer to the specific version which occupies the first cell (i.e. where bit 0 of the bitmask is set) as the base bitmask.
 The base bitmasks can be identified by their rotation ID (RID) which is a combination of the piece and rotation.
 ```
 rid = piecen * 25 + rotn;
