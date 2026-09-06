@@ -42,7 +42,7 @@ Then, because piece 0 is allowed only 1 rotation (for symmetry breaking), the ma
 
 Another useful observation is that bitmasks for different valid placements of a particular rotation of a piece, are all bit-shifted versions of one another.
 I refer to the version where the first cell is occupied, as the base bitmask.
-A particular base bitmask is identified by its rotation ID (RID) which is a combination of the piece and rotation.
+A particular base bitmask is identified by its rotation ID (RID), which is a combination of the piece and rotation.
 ```
 rid = piecen * 25 + rotn;
 ```
