@@ -68,6 +68,7 @@ There are a number of versions included in this repository:
 * [v2_5_gpu_cid_uid_l1_shared](v2_5_gpu_cid_uid_l1_shared/) - Improved GPU version with compressed lookup tables in L1 cache and shared memory
 * [v2_6_gpu_cid_uid_shared](v2_6_gpu_cid_uid_shared/) - Improved GPU version with compressed lookup tables in shared memory
 * [v2_7_gpu_rot_rid_shared](v2_7_gpu_rot_rid_shared/) - Improved GPU version with compressed lookup tables in shared memory and improved occupancy
+* [v2_8_gpu_prune](v2_8_gpu_prune/) - Improved GPU version with additional tree pruning
 
 ## Performance
 Here is a summary of the performance of the various versions:
