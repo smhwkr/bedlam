@@ -1,4 +1,4 @@
-# bedlam v2.8 (GPU, CID)
+# bedlam v2.8 (GPU, tree pruning)
 
 This version is derived from v2.4, but performs additional tree pruning based on a "no isolated cells" constraint.
 
