@@ -226,7 +226,7 @@ int main()
     cudaDeviceProp prop;
     cudaGetDeviceProperties(&prop, device);
 
-    printf("bedlam v2.4\n");
+    printf("bedlam v2.8\n");
     printf("Copyright (c) 2026 Sam Hawker <smhwkr@googlemail.com>. All rights reserved.\n\n");
     printf("%s\n", prop.name);
     printf("MultiProcessorCount: %i\n", prop.multiProcessorCount);
