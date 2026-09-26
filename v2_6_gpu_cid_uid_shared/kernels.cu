@@ -151,7 +151,7 @@ __global__ void __launch_bounds__(1024, 1) kernelSolve(const ulonglong1* __restr
 {
     extern __shared__ int shared[];
 
-    uint64_t* sharedoccupiedfromuid = reinterpret_cast<uint64_t*>(&shared[0x0000]); // FIX ALL THE OFFSETS AND THE TOTAL SIZE AND THE COPY
+    uint64_t* sharedoccupiedfromuid = reinterpret_cast<uint64_t*>(&shared[0x0000]);
     uint16_t* shareduidfromcid = reinterpret_cast<uint16_t*>(&shared[0x28a6]);
 
     uint16_t* sharedcids = reinterpret_cast<uint16_t*>(&shared[0x4c32]);
