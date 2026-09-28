@@ -41,7 +41,7 @@ __device__ __forceinline__ int find_first_unset(uint64_t i)
     return ret;
 }
 
-__global__ void __launch_bounds__(244, 6) kernelPartialSolve(const ulonglong1* __restrict__ occupiedfromcid, int maxpartials, int* __restrict__ partials, ushort2* __restrict__ partialpieces, ulonglong1* __restrict__ partialoccupied, ushort4* __restrict__ partialcids)
+__global__ void __launch_bounds__(224, 6) kernelPartialSolve(const ulonglong1* __restrict__ occupiedfromcid, int maxpartials, int* __restrict__ partials, ushort2* __restrict__ partialpieces, ulonglong1* __restrict__ partialoccupied, ushort4* __restrict__ partialcids)
 {
     int piece0 = blockIdx.x / 24;
     int pieces0 = 1 << piece0;
