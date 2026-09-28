@@ -322,7 +322,7 @@ __global__ void __launch_bounds__(512, 3) kernelSolve(const ulonglong1* __restri
                     solutioncids[slot][0] = ushort4({ cid0, cid1, cid2, cid3 });
                     solutioncids[slot][1] = ushort4({ cid4, cids[0], cids[1], cids[2] });
                     solutioncids[slot][2] = ushort4({ cids[3], cids[4], cids[5], cids[6] });
-                    solutioncids[slot][3] = ushort4({ cids[7], static_cast<uint16_t>(0), static_cast<uint16_t>(0), static_cast<uint16_t>(0) });
+                    solutioncids[slot][3] = ushort4({ static_cast<uint16_t>(cid), static_cast<uint16_t>(0), static_cast<uint16_t>(0), static_cast<uint16_t>(0) });
                 }
                 cid++;
                 continue;
